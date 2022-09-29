@@ -1,0 +1,9 @@
+/*use local versions */
+/*@import url("shared.css");
+@import url("size.css"); */
+
+/* override with tracx specified css, if existent */
+@import url("../../trac/trac/htdocs/css/trac.css"); 
+@import url("../../trac/trac/htdocs/css/wiki.css"); 
+@import url("../../tracx/tracx/htdocs/css/trac.css"); 
+@import url("../../tracx/tracx/htdocs/css/complete.css"); 

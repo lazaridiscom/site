@@ -1,0 +1,27 @@
+@media screen {
+
+#main-copy {
+  width:1012px;
+
+}
+
+.centered {
+  width: 1200px;
+
+}
+
+#wideheader {
+  height: 90px;
+}
+html,body {
+/*  width: 1200px;*/
+}
+#content {
+
+}
+
+.wikipage table.listing {
+/*width: 900px;*/
+}
+
+}

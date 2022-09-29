@@ -1,0 +1,94 @@
+@media screen {
+div#s1 {
+  width: 184px;          
+  background-color: #FFFFFF;          
+}
+}
+
+div#s1 ul {
+  list-style-type: none; 
+  padding:0;             
+  margin:0;              
+}
+
+div#s1 ul li {
+  margin: 0;
+  padding: 0;
+  display:block;
+  border-bottom: 1px solid white; /* lines */
+}
+
+div#s1 ul li a {
+  display: block;         
+  padding: 3px 3px 3px 12px;    
+  margin:0;
+  text-decoration: none;
+  color: black;
+  height:15px;          
+  border-bottom-width: 0px;
+}
+
+div#s1 ul ul li a {
+  padding-left: 20px;     /* indent level 1 */
+  font-weight:normal;     
+  color: black;
+}
+
+div#s1 ul ul ul li a {
+  padding-left: 30px;     /* indent level 2 */  
+}
+
+div#s1 ul ul ul ul li a {
+  padding-left: 40px;     /* indent level 3 */  
+}
+
+div#s1 ul ul ul ul ul li a {
+  padding-left: 50px;     /* indent level 4 */       
+}
+
+div#s1 ul ul ul ul ul ul li a {
+  padding-left: 60px;     /* indent level 5 */       
+}
+
+div#s1 li ul, div#s1 li.open li.closed ul {
+  display: none;         /* collapse */
+}
+
+div#s1 li.open ul {
+  display: block;        /* expand */
+}
+                          
+div#s1 ul li.open  a {  
+  /*background-color: #C8C8FF;*/ 
+  background-color: #FFFFFF; /*#EEEEFF;*/
+  font-weight:bold;    
+}                    
+                        
+div#s1 ul li.closed a {font-weight:normal;}                             
+div#s1 ul ul li.closed a,
+div#s1 ul ul ul li.closed a,
+div#s1 ul ul ul ul li.closed a,
+div#s1 ul ul ul ul ul li.closed a,
+div#s1 ul ul ul ul ul ul li.closed a  { background-color: #FFFFFF; font-weight:normal;}
+                                   
+div#s1 ul li.leaf a,                            
+div#s1 ul ul li.leaf a,
+div#s1 ul ul ul li.leaf a,
+div#s1 ul ul ul ul li.leaf a,
+div#s1 ul ul ul ul ul li.leaf a,
+div#s1 ul ul ul ul ul ul li.leaf a { background-color: #FFFFFF; font-weight:normal;}       
+
+div#s1 ul li.active a,
+div#s1 ul ul li.active a,
+div#s1 ul ul ul li.active a,
+div#s1 ul ul ul ul li.active a,
+div#s1 ul ul ul ul ul li.active a,
+div#s1 ul ul ul ul ul ul li.active a { background-color: #FFCFCF;font-weight:bold;}       
+
+
+
+div#s1 ul a:hover,
+div#s1 ul li a:hover { background-color: #FFCFCF; font-weight:normal; }
+
+                       
+
